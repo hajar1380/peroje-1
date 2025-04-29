@@ -1,7 +1,9 @@
+
+
 #product list:
 products=[{"id": 1, "name":"roz Abi","price":170,"stock":300 ,"takhfif":},
-{"id": 2, "name":"roz Sefid","price":100,"stock":100},"takhfif":10%]
-
+{"id": 2, "name":"roz Sefid","price":100,"stock":100},"takhfif":10%},
+{"id":3,"name":"roz ghermez","price":200}]
 def shoe_menue():
     print("show all products ")
     
