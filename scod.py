@@ -11,3 +11,9 @@ def shoe_products():
     print("/n products list")
     for product in products:
         print(f"id:{product["id"]},name:{product["name"]},stock:{product["stock"]},")
+        import pandas as pd
+        def show_product_tabel():
+            df=pd.dataframe(products)
+            df['stockprice']=df['cost']*['stock']
+            print("\n--show tabel---")
+            print(df)
